@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.row1, .row2, .row3, .row4, .row5, .row6, .row7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.container{
+    width: 230px;
+    height: 150px;
+    background-color: white;
+    box-shadow: 0 0 10px rgb(149, 149, 149);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.box-bottom{
+    width: 120px;
+    height: 120px;
+    background-color: rgb(0, 40, 40);
+}
+
+.box-top{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(248, 110, 5, 0.5);
+    position: absolute;
+    transition: all 1s;
+}
+
+.one:hover {
+    transform: rotate(45deg);
+}
+
+.two:hover{
+    transform: rotateX(40deg)
+}
+
+.three:hover{
+    transform: rotateY(40deg);
+}
+
+.four:hover{
+    transform: scale(1.9);
+}
+
+.five:hover{
+    transform: scaleX(2);
+}
+
+.six:hover{
+    transform: scaleY(2);
+}
+
+.seven:hover{
+    transform: skew(45deg);
+}
+
+.eight:hover{
+    transform: skewY(45deg);
+}
+
+.nine:hover{
+    transform: translate(2rem, 2.2rem);
+}
+
+.ten:hover{
+    transform: translateX(2rem);
+}
+
+.eleven:hover{
+    transform: translateY(2rem);
+}
+
+.twelve:hover{
+    transform: skewY(45deg) scale(2);
+}
+
+.thirteen:hover{
+    transform: perspective(120px) rotateX(30deg) scale3d(0.7, 0.9, 20);
+    transform-origin: top;
+}
+
+.fourteen:hover{
+    transform: perspective(120px) rotateY(30deg) scale3d(0.9, 0.7, 20);
+    transform-origin: right;
+}
+
+.fifteen:hover{
+    transform: rotate(45deg);
+}
+
+.fifteen{
+    transform-origin: top right;
+}
+
+.sixteen:hover{
+    transform: rotate(45deg);
+}
+
+.sixteen{
+    transform-origin: bottom left;
+}
+
+.seventeen:hover{
+    transform: perspective(100px) rotateX(30deg);
+    transform-origin: bottom;
+}
+
+.eighteen:hover{
+    transform: perspective(200px) rotateX(30deg);
+    transform-origin: top;
+}
+
+.nineteen:hover{
+    transform: perspective(100px) rotateY(30deg);
+    transform-origin: left;
+}
+
+.twenty:hover{
+    transform: perspective(200px) rotateY(30deg);
+    transform-origin: right;
+}
+
+.twentyone:hover{
+    transform: scale(2);
+}
+.twentyone{
+    transform-origin: top right;
+}
+
+.twentytwo:hover{
+    transform: scale(2);
+}
+.twentytwo{
+    transform-origin: bottom left;
+}
+
+.twentythree:hover{
+    transform: scaleX(2)
+}
+
+.twentythree{
+    transform-origin: right;
+}
+
+.twentyfour:hover{
+    transform: scaleX(2)
+}
+
+.twentyfour{
+    transform-origin: left;
+}
+
+.twentyfive:hover{
+    transform: scaleY(2);
+}
+
+.twentyfive{
+    transform-origin: top;
+}
+
+.twentysix:hover{
+    transform: scaleY(2);
+}
+
+.twentysix{
+    transform-origin: bottom
